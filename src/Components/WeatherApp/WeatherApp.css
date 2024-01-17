@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
 
+body{
+  cursor: url('/src/Components/Assets/cursor.png'), auto;
+}
+
 .container {
     width: 607px;
     height: 829px;
@@ -7,7 +11,7 @@
     margin-top: 75px;
     border-radius: 12px;
     background-image: linear-gradient(180deg, #e2f6fd 0%, #149ed4 100%);
-}
+  }
   
 .top-bar {
   display: flex;
