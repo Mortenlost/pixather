@@ -8,11 +8,10 @@ import rain from '../Assets/rain.png'
 import search_icon from '../Assets/search_icon.png'
 import snow from '../Assets/snow.png'
 import wind from '../Assets/wind.png'
-import API_KEY from './config.js'
 
 
 const WeatherApp = () => {
-    let api_key = API_KEY 
+    let api_key = process.env.REACT_APP_API_KEY
 
     const[wicon,setWicon] = useState(cloud)
     
