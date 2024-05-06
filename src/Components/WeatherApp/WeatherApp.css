@@ -97,3 +97,24 @@ body{
 .icon{
   margin-top: 10px;
 }
+
+@media (max-width: 745px) {
+  .container  {
+    width: 80%;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+
+  .data{
+    font-size: 25px;
+  }
+
+  .cityInput{
+    width: 262px;
+  }
+  .data-container{
+    margin: 50px 20px;
+  }
+}
